@@ -4,5 +4,5 @@ services:
   socket:
     build: .
     ports:
-      - '8080:8089'
+      - '8089:8080'
     container_name: ws-demo
