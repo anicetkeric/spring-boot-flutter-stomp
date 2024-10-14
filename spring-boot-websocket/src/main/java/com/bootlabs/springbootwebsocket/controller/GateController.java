@@ -22,6 +22,6 @@ public class GateController {
     @PutMapping("/call")
     public ResponseEntity<Void> replaceEmployee(@RequestBody GateInfo gateInfo) {
         gateService.updateGateInfo(gateInfo);
-        return new ResponseEntity<>(HttpStatus.OK); //appropriate error code
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }
